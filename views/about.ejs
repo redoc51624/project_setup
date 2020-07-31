@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <h2>welcome to about</h2>
+
+    <%items.header.forEach(function (item) { %>
+     <nav class = "navbar">
+
+        <a data-item-id= "<%= item.id%>"  href="<%=item.name%>.html"> <%= item.name%></a> |
+
+    </nav>
+
+    <%})%>
+
+<%items.articles.forEach(function (item) { %>
+    <div class="articles">
+        <article>
+            <h1 data-item-id = "<%= item.id%>"><%= item.name%></h1>
+            <p data-item-id = "<%= item.id%>"><%= item.article%></p>
+        </article>
+    </div>
+   <%})%>
+</body>
+</html>
