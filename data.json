@@ -1,0 +1,33 @@
+{
+    "header":[
+        { 
+        "id" : 1,
+        "name": "home"
+        },
+        { 
+        "id" : 2,
+        "name": "About"
+        },
+        {
+        "id" : 3,
+        "name": "contact"
+        }      
+    ],
+    "articles": [
+        {
+            "id" : 1,
+            "name": "article Name article1",
+            "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    },
+    {
+        "id" : 2,
+        "name": "article Name 2",
+        "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+},
+    {
+        "id" : 3,
+        "name": "article Name 3",
+        "article": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+    }
+]
+}
